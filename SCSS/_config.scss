@@ -1,0 +1,19 @@
+$font-stack: 'Cocogoose Thin',
+Arial,
+Helvetica,
+sans-serif;
+$light-color: #f4f4f4;
+// $primary-color: #0e6cff;
+$primary-color: black;
+$secondary-color: pink;
+
+//Set text color based on bg
+@function set-text-color($color) {
+    @if(lightness($color) > 70) {
+        @return #333;
+    }
+
+    else {
+        @return #ffffff;
+    }
+}

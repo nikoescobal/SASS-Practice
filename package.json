@@ -4,9 +4,10 @@
   "description": "default linter set-up configuration",
   "main": "index.js",
   "scripts": {
-    "test": "npm run webhint && npm run stylelint && echo \"✅✅✅ All tests passed ✅✅✅\"",
+    "jarvis": "npm run webhint && npm run stylelint && npm run sass && echo \"🎉🎉🎉 All tests passed! 🎉🎉🎉\"",
     "webhint": "hint .",
-    "stylelint": "stylelint **/*.css"
+    "stylelint": "stylelint **/*.css",
+    "sass":"node-sass styles/scss/main.scss styles/css/app.css -w"
   },
   "repository": {
     "type": "git",

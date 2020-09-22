@@ -1,0 +1,95 @@
+.container {
+  max-width: 1100px;
+  padding: 0 30px;
+  margin: 0 auto;
+  overflow: auto;
+}
+
+.btn-primary, .btn-secondary {
+  display: inline-block;
+  border-radius: 5px;
+  padding: 8px 20px;
+  margin: 3px;
+}
+
+.btn-primary:hover, .btn-secondary:hover {
+  transform: scale(0.98);
+}
+
+.btn-primary {
+  background-color: #418bff;
+}
+
+.btn-secondary {
+  background-color: #ff8700;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: p;
+  font-family: "Cocogoose Thin", Arial, Helvetica, sans-serif;
+  line-height: 1.6;
+}
+
+img {
+  width: 100%;
+}
+
+a {
+  text-decoration: none;
+}
+
+.showcase {
+  background-color: #0e6cff;
+  color: white;
+  height: 600px;
+}
+
+.showcase nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.showcase nav ul {
+  display: flex;
+  list-style: none;
+}
+
+.showcase nav li {
+  padding: 15px;
+}
+
+.showcase nav a:hover {
+  color: #ff8700;
+}
+
+.showcase a {
+  color: white;
+}
+
+.showcase-content {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.showcase-content img {
+  width: 50%;
+}
+
+.showcase-content h1 {
+  font-size: 50px;
+  line-height: 1.2;
+}
+
+.showcase-content p {
+  margin: 20px 0;
+}
+/*# sourceMappingURL=style.css.map */
