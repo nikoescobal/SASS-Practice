@@ -3,9 +3,8 @@ Arial,
 Helvetica,
 sans-serif;
 $light-color: #f4f4f4;
-// $primary-color: #0e6cff;
-$primary-color: black;
-$secondary-color: pink;
+$primary-color: #0e6cff;
+$secondary-color: #ff8700;
 
 //Set text color based on bg
 @function set-text-color($color) {
@@ -13,7 +12,13 @@ $secondary-color: pink;
         @return #333;
     }
 
-    else {
-        @return #ffffff;
+    @else {
+        @return #fff;
     }
+}
+
+// Set background & text color
+@mixin set-background($color) {
+    background-color: $color;
+    color: set-text-color($color)
 }

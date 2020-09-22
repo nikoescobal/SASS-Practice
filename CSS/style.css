@@ -1,29 +1,3 @@
-.container {
-  max-width: 1100px;
-  padding: 0 30px;
-  margin: 0 auto;
-  overflow: auto;
-}
-
-.btn-primary, .btn-secondary {
-  display: inline-block;
-  border-radius: 5px;
-  padding: 8px 20px;
-  margin: 3px;
-}
-
-.btn-primary:hover, .btn-secondary:hover {
-  transform: scale(0.98);
-}
-
-.btn-primary {
-  background-color: #418bff;
-}
-
-.btn-secondary {
-  background-color: #ff8700;
-}
-
 * {
   box-sizing: border-box;
   margin: 0;
@@ -31,7 +5,7 @@
 }
 
 body {
-  background-color: p;
+  background-color: #0e6cff;
   font-family: "Cocogoose Thin", Arial, Helvetica, sans-serif;
   line-height: 1.6;
 }
@@ -46,7 +20,8 @@ a {
 
 .showcase {
   background-color: #0e6cff;
-  color: white;
+  color: #fff;
+  color: #fff;
   height: 600px;
 }
 
@@ -65,12 +40,12 @@ a {
   padding: 15px;
 }
 
-.showcase nav a:hover {
-  color: #ff8700;
+.showcase nav a {
+  color: #fff;
 }
 
-.showcase a {
-  color: white;
+.showcase nav a:hover {
+  color: #ff8700;
 }
 
 .showcase-content {
@@ -78,6 +53,7 @@ a {
   display: flex;
   align-items: center;
   justify-content: center;
+  margin-top: 30px;
 }
 
 .showcase-content img {
@@ -89,7 +65,163 @@ a {
   line-height: 1.2;
 }
 
-.showcase-content p {
-  margin: 20px 0;
+@media (max-width: 767px) {
+  .showcase {
+    height: 400px;
+  }
+  .showcase-content {
+    text-align: center;
+  }
+  .showcase-content img {
+    display: none;
+  }
+}
+
+.container {
+  max-width: 1100px;
+  padding: 0 30px;
+  margin: 0 auto;
+  overflow: auto;
+}
+
+.m-1 {
+  margin: 1rem;
+}
+
+.mx-1 {
+  margin: 10 rem;
+}
+
+.my-1 {
+  margin: 1rem 0;
+}
+
+.p-1 {
+  margin: 1rem;
+}
+
+.px-1 {
+  margin: 10 rem;
+}
+
+.py-1 {
+  margin: 1rem 0;
+}
+
+.m-2 {
+  margin: 2rem;
+}
+
+.mx-2 {
+  margin: 20 rem;
+}
+
+.my-2 {
+  margin: 2rem 0;
+}
+
+.p-2 {
+  margin: 2rem;
+}
+
+.px-2 {
+  margin: 20 rem;
+}
+
+.py-2 {
+  margin: 2rem 0;
+}
+
+.m-3 {
+  margin: 3rem;
+}
+
+.mx-3 {
+  margin: 30 rem;
+}
+
+.my-3 {
+  margin: 3rem 0;
+}
+
+.p-3 {
+  margin: 3rem;
+}
+
+.px-3 {
+  margin: 30 rem;
+}
+
+.py-3 {
+  margin: 3rem 0;
+}
+
+.m-4 {
+  margin: 4rem;
+}
+
+.mx-4 {
+  margin: 40 rem;
+}
+
+.my-4 {
+  margin: 4rem 0;
+}
+
+.p-4 {
+  margin: 4rem;
+}
+
+.px-4 {
+  margin: 40 rem;
+}
+
+.py-4 {
+  margin: 4rem 0;
+}
+
+.m-5 {
+  margin: 5rem;
+}
+
+.mx-5 {
+  margin: 50 rem;
+}
+
+.my-5 {
+  margin: 5rem 0;
+}
+
+.p-5 {
+  margin: 5rem;
+}
+
+.px-5 {
+  margin: 50 rem;
+}
+
+.py-5 {
+  margin: 5rem 0;
+}
+
+.btn-primary, .btn-secondary {
+  display: inline-block;
+  border-radius: 5px;
+  padding: 8px 20px;
+  margin: 3px;
+}
+
+.btn-primary:hover, .btn-secondary:hover {
+  transform: scale(0.98);
+}
+
+.btn-primary {
+  background-color: #418bff;
+  color: #fff;
+}
+
+.btn-secondary {
+  background-color: #ff8700;
+  color: #fff;
 }
 /*# sourceMappingURL=style.css.map */

@@ -11,10 +11,10 @@
 
 .btn-primary {
     @extend %btn;
-    background-color: lighten($primary-color, 10%);
+    @include set-background(lighten($primary-color, 10%));
 }
 
 .btn-secondary {
     @extend %btn;
-    background-color: purple;
+    @include set-background($secondary-color);
 }
